@@ -1,3 +1,4 @@
+
 public class NumberGuessing {
     public static void main(String[] args) {
         int numberToGuess = 7;

@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class MatrixAddation {
+    static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
-        int a[][]={{1,2},{3,4}};
-        int b[][]={{5,6},{7,8}};
+        int a[][]=ScannerInput();
+        int b[][]=ScannerInput();
         int c[][]=new int[2][2];
 
         for(int i=0; i<a.length; i++){
